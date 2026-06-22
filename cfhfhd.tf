@@ -1,0 +1,20 @@
+xdsfvprovider_installation {
+  filesystem_mirror {
+    path    = "/usr/share/terraform/providers"
+    include = ["example.com/*/*"]
+  }
+  direct {
+    exclude = ["example.com/*/*"]
+  }
+}
+
+  provider_installation {
+  filesystem_mirror {
+    path    = "/usr/share/terraform/providers"
+    include = ["example.com/*/*"]
+  }
+  direct {
+    exclude = ["example.com/*/*"]
+  }
+}
+
